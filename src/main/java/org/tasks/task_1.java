@@ -10,6 +10,6 @@ public class task_1 {
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] < min) min = arr[i];  // update if a smaller element is found
         }
-        return min;
+        return min; // min
     }
 }
