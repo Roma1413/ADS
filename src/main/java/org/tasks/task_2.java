@@ -10,6 +10,6 @@ public class task_2 {
         for (int num : arr) {
             sum += num;  // accumulate sum
         }
-        return (double) sum / arr.length;
+        return (double) sum / arr.length; // divide sum to the number of indexes to get avg
     }
 }
