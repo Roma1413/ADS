@@ -3,7 +3,7 @@ package org.tasks;
 public class task_3 {
     /**
      * Checks if a number is prime using recursion.
-     * Time Complexity: O(√n) - checks divisibility up to sqrt(n).
+     * Time Complexity: O(√n) - checks divisibility up to sqrt(n)
      */
     public static boolean isPrime(int n) {
         return isPrimeHelper(n, 2);
