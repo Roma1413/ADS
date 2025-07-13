@@ -6,7 +6,7 @@ public class task_8 {
      * Time Complexity: O(n), where n is length of string
      */
     public static boolean isAllDigits(String s) {
-        for (char c : s.toCharArray()) {
+        for (char c : s.toCharArray()) { // checks through all array
             if (!Character.isDigit(c)) return false;
         }
         return true;
